@@ -520,7 +520,7 @@ void processInput(GLFWwindow *window)
         camera.updateCameraVectors();
     }
 
-    float cameraSpeed = 2.0f; // Increased speed for better exploration
+    float cameraSpeed = 0.01f; // Increased speed for better exploration
 
     // Forward/Backward movement
     if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)
